@@ -39,3 +39,65 @@ PS C:\Users\jake> ollama run llama3.1:8b
 
 Response:
 
+**I. Introduction (approx. 100-150 words)**
+
+* Introduce the purpose of the report: to document an investigation of a Pushdo attack
+* Provide background on the incident, including the phishing email and the malware involved
+* State the objectives of the report: to identify the methods used by the attackers and to provide
+recommendations for future prevention
+
+**II. Methodology (approx. 150-200 words)**
+
+* Describe the tools and techniques used to investigate the incident, including Snort and Suricata logs and
+the PCAP file
+* Explain the selection and justification of these tools and techniques, highlighting their relevance to the
+investigation
+* Discuss any limitations or challenges faced during the investigation
+
+**III. Analysis (approx. 300-350 words)**
+
+* Systematically examine the relevant artefacts, including the logs and PCAP file
+* Interpret the findings, highlighting key observations and conclusions
+* Discuss the technical reasoning behind these conclusions, including any uncertainty or areas for further
+investigation
+
+**IV. Findings (approx. 250-300 words)**
+
+* Present clear, evidence-based conclusions about the Pushdo attack, including:
+        + The methods used to deliver the malware (phishing email with zipped attachment)
+        + The malware itself (mock PDF/DOC files with JS extension)
+        + The execution of the Pushdo malware (DNS request for matied.com and subsequent HTTP requests)
+        + The requests for additional executables (trow.exe and wp.exe)
+        + The subsequent activity (600+ HTTP post requests)
+
+**V. Technical Reasoning (approx. 150-200 words)**
+
+* Explain how the observations support the conclusions, including:
+        + Technical details of the malware and its execution
+        + Analysis of the logs and PCAP file
+        + Discussion of any uncertainty or areas for further investigation
+
+**VI. Recommendations (approx. 150-200 words)**
+
+* Provide recommendations for future prevention, including:
+        + Improved email filtering and attachment scanning
+        + Enhanced malware detection and removal
+        + Increased awareness and training for employees on phishing and malware
+        + Implementation of additional security measures, such as DNS filtering
+
+**VII. Conclusion (approx. 50-100 words)**
+
+* Summarize the key findings and recommendations
+* Reiterate the importance of continued vigilance and awareness in preventing such attacks
+
+**VIII. References (not included in word count)**
+
+* List any sources cited in the report, using a consistent citation style.
+
+This structure should provide a good balance of technical detail and narrative flow. Remember to use the
+guidelines as a rough guide, and adjust the word limits and content to suit your needs. Good luck with your
+coursework!
+
+
+Hallucinations present: 
+AI appears to not be able to calculeate the 1000 word limit, as the minimum word count total exceeds 1000 words 
