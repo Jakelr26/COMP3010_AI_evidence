@@ -1,0 +1,41 @@
+Prompt:
+PS C:\Users\jake> ollama run llama3.1:8b
+... Good afternoon, I am workign on a coursework project for my cyber security degree and I am working on it as a se
+... curity analyst. I have been provided with snort and suricata logs aswell as a PCAP, I have investigated the log
+... and foudn the issue, it is a pushdo attack, that came from a phishing email that came from a successfull phishin
+... g attempt, it involved an email that had  azip file masking as an invoice, and when oppened it had mock pdfs/ do
+... c files, with a js extention on the end e.g. invoice.doc.js, this led to executing a pushdo that downloaded an e
+... xe that was masked as gerv.gun, this was retrived via the initial malware performing a DNS reuest on matied.com
+... , that gave it the IP address and then an HTTP reuest to the ip of matied.com, requesting for gerv.gun, after th
+... is two more un masked exe files were requested, again via http, trow.exe and wp.exe from domains lounge-haarstud
+... io.com and vatagepointtechnologies.com respectively. After gettign these from http get reuests, it went through
+... and did a huge amount of normal http post requests on normal traffic (around 600), sending emails and other thin
+... gs.
+... I have been tasked to now making a report of 1000 words, based on: 2. Investigation Report
+... Maximum 1,000 words, excluding references, evidence appendix and AI reflection appendix.
+... The report should communicate the investigation as a coherent professional case study rather
+... than as a list of answers.
+... Recommended focus What should be demonstrated
+... Methodology Selection and justification of appropriate
+... investigation methods and tools.
+... Analysis Systematic examination of relevant artefacts
+... and interpretation of findings.
+... COMP3010 Security Operations & Incident Management
+... Recommended focus What should be demonstrated
+... Findings Clear, evidence-based conclusions about the
+... intrusion or monitoring problem.
+... Technical reasoning Explanation of how observations support
+... conclusions and where uncertainty remains.
+...
+... I would like you to draw from this information to give me a report structure to follow when writing this report,
+...  with hints as for what to talk about and rough word limmits for each section.
+...
+... **Key** do not write this for me! as the coursework states:
+... Categories under Investigation Report, Technical Evidence and Professional Practice will have the following caps
+...  for these categories: 60% if no evidence of free-tier or opensource AI use, 70% if no evidence of open-source A
+... I use. Burden of proof is on the student to provide, otherwise a lower-tier assumption will be applied.
+... However I am unsure of how much AI I should use, so I am sticking to use AI for help and information rather than
+...  doing the work. Thank you :)
+
+Response:
+
