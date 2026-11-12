@@ -1,3 +1,8 @@
+Reasoning: 
+Using AI to organise allocation of words and most efficient topics to write about
+
+Note: I forgot to add a screenshot proving that this was done on ollama (open source)
+
 Prompt:
 PS C:\Users\jake> ollama run llama3.1:8b
 ... Good afternoon, I am workign on a coursework project for my cyber security degree and I am working on it as a se
