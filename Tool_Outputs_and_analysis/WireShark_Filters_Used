@@ -1,0 +1,41 @@
+ip.src == 192.168.1.96
+
+ip.src == 192.168.1.96 && dhcp
+
+http.request
+
+tcp.stream eq 0
+
+ip.addr == 104.28.18.104 && tcp.port == 49210
+
+_ws.col.info == "GET"
+
+_ws.col.info == "GET/"
+
+_ws.col.info == "GET /"
+
+((_ws.col.info == "GET /gerv.gun HTTP/1.1 ") && (_ws.col.info == "GET /wp.exe HTTP/1.1 ")) && (frame.len == 169)
+
+((_ws.col.info == "GET /gerv.gun HTTP/1.1 ") or (_ws.col.info == "GET /wp.exe HTTP/1.1 ")) or (frame.len == 169)
+
+(((_ws.col.info == "GET /gerv.gun HTTP/1.1 ") or (_ws.col.info == "GET /wp.exe HTTP/1.1 ")) ) || (_ws.col.info == "GET /oud/trow.exe HTTP/1.1 ")
+
+ip.addr == 104.28.18.104
+
+tcp.stream eq 24
+
+frame.number == 1738
+
+http.request.method == "POST"
+
+http.request.method == "POST" && ip.src == 192.168.1.96
+
+smtp
+
+smtp && ip.src == 192.168.1.96
+
+frame contains ".js"
+
+http contains "javascript"
+
+ip.addr == 184.168.47.225
