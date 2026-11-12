@@ -9,7 +9,7 @@ This repository documents the use of local, open-source Generative AI (**Ollama*
 
 ## Repository Structure
 * `/Prompt_TXT_Files/` – Full text records of all Ollama interactions used for problem exploration, report structuring, and language refinement.
-* `/Prompt_Screenshot_evidence/` – Supporting visual evidence from Wireshark, Snort, and VirusTotal referenced in the main report appendix.
+* `/Prompt_Screenshot_evidence/` – Supporting screenshots of local Ollama terminal sessions verifying open-source model usage
 
 ## Log Format
 Each log file follows a consistent structure to demonstrate transparent and reproducible AI usage:
